@@ -1,0 +1,21 @@
+.spinnerContainer {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    margin: auto;
+}
+.spinner {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #1FAA59;
+    border-bottom-color: transparent;
+    animation: spin 250ms linear forwards infinite;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg)
+    }100%{
+        transform: rotate(360deg);
+    }
+}

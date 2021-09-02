@@ -1,0 +1,28 @@
+.headerContainer {
+    width: 100vw;
+    height: 6vh;
+    background-color: #1FAA59;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+
+    height: 100%;
+    padding: 0px 10px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.icon:hover{ 
+    background-color: #116333;
+}
+.active{
+    background-color: #116333;
+}
+.link {
+    color: white;
+}
